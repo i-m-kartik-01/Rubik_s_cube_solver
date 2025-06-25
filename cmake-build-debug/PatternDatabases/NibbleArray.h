@@ -1,5 +1,5 @@
 //
-// Created by KARTIK GUPTA on 26/05/25.
+// Created by KARTIK GUPTA on 30/05/25.
 //
 
 #ifndef RUBIKS_CUBE_SOLVER_NIBBLEARRAY_H
