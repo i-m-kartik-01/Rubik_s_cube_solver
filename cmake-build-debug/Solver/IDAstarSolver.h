@@ -1,5 +1,5 @@
 //
-// Created by KARTIK GUPTA on 26/05/25.
+// Created by KARTIK GUPTA on 08/06/25.
 //
 
 #include<bits/stdc++.h>
@@ -41,10 +41,10 @@ private:
         visited.clear();
     }
 
-// returns {solved cube, bound}: if the cube was solved
-// returns {rubiksCube, next_bound}, if the cube was not solved
+// returns {solved cube, bound}: if the cube solved
+// returns {rubiksCube, next_bound}, if the cube not solvd
     pair<T, int> IDAstar(int bound) {
-//        priority_queue contains pair(Node, move done to reach that)
+//        priority_queue for pair(Node, move done to reach that)
         priority_queue<pair<Node, int>, vector<pair<Node, int>>, compareCube> pq;
         Node start = Node(rubiksCube, 0, cornerDB.getNumMoves(rubiksCube));
         pq.push(make_pair(start, 0));
