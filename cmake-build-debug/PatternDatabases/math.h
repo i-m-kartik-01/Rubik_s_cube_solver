@@ -1,5 +1,5 @@
 //
-// Created by KARTIK GUPTA on 26/05/25.
+// Created by KARTIK GUPTA on 1/06/25.
 //
 
 #ifndef RUBIKS_CUBE_SOLVER_MATH_H
